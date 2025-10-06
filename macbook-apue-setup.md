@@ -24,10 +24,12 @@
     若能显示 `apue.h` 路径，说明复制成功。
 
 5.  复制 libapue.a 到 /usr/local/lib/
+    复制 error.c 到 /usr/local/include/
 
     ```bash
     cd ~/Downloads/apue.3e/lib  # 替换为你的实际路径
     sudo cp libapue.a /usr/local/lib/
+    sudo cp ./lib/error.c /usr/local/include/
     ```
 
     验证：
